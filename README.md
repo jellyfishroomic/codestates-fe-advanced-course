@@ -2,6 +2,8 @@
 
 ## Deployment
 
+[배포 사이트(vercel)](https://codestates-fe-advanced-course.vercel.app/)
+
 ## Features GIF
 
 - 게시물 리스트
