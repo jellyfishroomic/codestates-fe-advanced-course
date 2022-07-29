@@ -1,7 +1,5 @@
 # codestates-fe-advanced-course
 
-SEB Full 35기 수료생 김수빈입니다.
-
 ## Deployment
 
 [배포 사이트(vercel)](https://codestates-fe-advanced-course.vercel.app/)
