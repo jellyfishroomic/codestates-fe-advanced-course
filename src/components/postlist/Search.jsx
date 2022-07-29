@@ -44,7 +44,7 @@ export default function Search({ setSearchText }) {
   return (
     <Container>
       <SearchInput
-        placeholder="검색어를 입력하세요."
+        placeholder="검색어를 입력해주세요."
         onChange={handleChange}
         ref={inputRef}
       />

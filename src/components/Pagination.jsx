@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import Page from "./Page";
+import Page from "./postlist/Page";
 
 const Container = styled.div`
   display: flex;
