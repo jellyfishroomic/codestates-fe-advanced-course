@@ -7,17 +7,17 @@ import Search from "../components/postlist/Search";
 import ListTop from "../components/postlist/ListTop";
 import Posts from "../components/postlist/Posts";
 import { API_URL } from "../utils/api";
-import Pagination from "../components/postlist/Pagination";
+import Pagination from "../components/Pagination";
 
 const ListWrapper = styled.div`
   background-color: #fff;
   max-width: 860px;
   margin: 0 auto;
   padding: 50px;
+  border-radius: 20px;
 `;
 
 const Title = styled.h1`
-  text-align: center;
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: bold;
@@ -62,7 +62,7 @@ export default function PostList() {
   return (
     <Layout>
       <ListWrapper>
-        <Title>게시판</Title>
+        <Title>목록</Title>
         <ItemWrapper>
           <PostsLength>
             총 <span>{filteredPosts.length}</span>건의 글이 있습니다.

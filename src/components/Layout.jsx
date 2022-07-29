@@ -7,7 +7,9 @@ const Container = styled.div`
   height: 100%;
 `;
 
-const Inner = styled.main``;
+const Inner = styled.main`
+  padding: 50px 0;
+`;
 
 export default function Layout({ children }) {
   return (
