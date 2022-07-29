@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-const Base = styled.div`
+const Container = styled.div`
   padding: 8px 0;
   background-color: #556b2f;
   color: #fff;
@@ -9,5 +9,5 @@ const Base = styled.div`
   line-height: 60px;
 `;
 export default function Header() {
-  return <Base>Codestates FE Advanced Course</Base>;
+  return <Container>Codestates FE Advanced Course</Container>;
 }

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import PostList from "./components/PostList";
-import PostDetail from "./components/PostDetail";
+import PostList from "./pages/PostList";
+import PostDetail from "./pages/PostDetail";
 
 function App() {
   return (

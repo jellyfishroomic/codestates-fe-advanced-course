@@ -1,32 +1,43 @@
 import styled from "@emotion/styled";
 import { Link } from "react-router-dom";
-const Base = styled.li`
+
+const Container = styled.li`
   padding: 20px;
   margin: 10px 0;
-  box-shadow: 2px 2px 5px #ccc;
+  border: 1px solid #ececec;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
   transition: background-color, transform 0.3s ease;
   &:hover {
-    background-color: #bdb76b;
+    box-shadow: 2px 2px 5px #ececec;
+    font-weight: bold;
+    color: #556b2f;
     transform: scale(1.02);
   }
 `;
 
-const Title = styled.div``;
-const Author = styled.div``;
+const No = styled.div`
+  text-align: center;
+  width: 10%;
+`;
+
+const Title = styled.div`
+  flex-grow: 1;
+`;
+
+const Author = styled.div`
+  text-align: center;
+  width: 15%;
+`;
 
 export default function Post({ userId, id, title, body }) {
-  function handleScrollStorage() {
-    window.localStorage.setItem("scrollY", window.scrollY);
-  }
   return (
     <Link to={`/post/${id}`} style={{ textDecoration: "none", color: "#000" }}>
-      <Base>
+      <Container>
+        <No>{id}</No>
         <Title>{title}</Title>
-        <Author>{`Author ${userId}`}</Author>
-      </Base>
+        <Author>{`작성자 ${userId}`}</Author>
+      </Container>
     </Link>
   );
 }
