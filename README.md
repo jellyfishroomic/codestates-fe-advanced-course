@@ -6,10 +6,21 @@
 
 ## Features GIF
 
-- 게시물 리스트
-  - 게시물 리스트 페이지네이션
+- 게시물 리스트 및 페이지네이션
+
+![codestates-fe-advanced-course-1](https://user-images.githubusercontent.com/110115843/181914261-308922ee-8aed-46e0-8223-48795b66ee20.gif)
+
+- 게시물 리스트 포스팅 수 설정
+
+![codestates-fe-advanced-course-2](https://user-images.githubusercontent.com/110115843/181914283-e26e8e0e-7512-4068-be88-2a8004df7fd2.gif)
+
+- 제목 검색 기능
+
+![codestates-fe-advanced-course-3](https://user-images.githubusercontent.com/110115843/181914300-2a64af77-2d11-4408-9d25-ef78594bc5f9.gif)
+
 - 게시물 상세 페이지
-- Modal, Tap, Toggle, Search
+
+![codestates-fe-advanced-course-4](https://user-images.githubusercontent.com/110115843/181914309-dbd36a46-68e7-4ef8-b7d1-d40f5c8237df.gif)
 
 # 프로젝트 실행 방법
 
